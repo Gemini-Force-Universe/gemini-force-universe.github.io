@@ -1,0 +1,1 @@
+import{_ as e}from"./HomeView-C5yVOPLx.js";import{o as t,c as s,f as c}from"./index-CzCY3YvY.js";const o={},r={class:"flex items-center justify-center w-full h-full"},n=c("h1",null,"Em breve...",-1),_=[n];function a(l,f){return t(),s("div",r,_)}const m=e(o,[["render",a]]);export{m as default};
