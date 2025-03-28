@@ -1,0 +1,78 @@
+{
+	"themes": {
+		"default": {
+			"name": "Gemini",
+			"type": 0
+		},
+		"neutral": {
+			"name": "Murakami",
+			"type": 0
+		},
+		"jade": {
+			"name": "Vestígio",
+			"type": 0
+		},
+		"sapphire": {
+			"name": "Sentinela",
+			"type": 0
+		},
+		"pink": {
+			"name": "Prisma",
+			"type": 0
+		},
+		"turquoise": {
+			"name": "Northstar",
+			"type": 0
+		},
+		"ruby": {
+			"name": "Estrela Rubra",
+			"type": 0
+		},
+		"citrine": {
+			"name": "Quintessência",
+			"type": 0
+		},
+		"orange": {
+			"name": "Brawler",
+			"type": 0
+		},
+		"darkgreen": {
+			"name": "Gaia",
+			"type": 0
+		},
+		"lightblue": {
+			"name": "Starblast",
+			"type": 0
+		},
+		"wine": {
+			"name": "Vincent",
+			"type": 0
+		},
+		"purple": {
+			"name": "Impulso",
+			"type": 0
+		},
+		"sakura": {
+			"name": "Sakura",
+			"type": 1
+		},
+		"quicksilver": {
+			"name": "Quicksilver",
+			"type": 1
+		},
+		"nebula": {
+			"name": "Nebula",
+			"type": 1
+		}
+	},
+	"availability": {
+		"free": ["default"],
+		"geminipass": {
+			"all": ["neutral", "jade", "sapphire", "pink", "turquoise", "ruby", "citrine", "orange", "darkgreen", "lightblue", "wine", "purple"],
+			"jade": [],
+			"sapphire": [],
+			"amethyst": ["sakura", "quicksilver", "nebula"]
+		},
+		"premium": []
+	}
+}
