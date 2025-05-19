@@ -63,6 +63,10 @@
 		"nebula": {
 			"name": "Nebula",
 			"type": 1
+		},
+		"maxstrike": {
+			"name": "Max Strike",
+			"type": 1
 		}
 	},
 	"availability": {
@@ -73,6 +77,13 @@
 			"sapphire": [],
 			"amethyst": ["sakura", "quicksilver", "nebula"]
 		},
-		"premium": []
+		"premium": [
+			{
+				"code": "maxstrike",
+				"purchase": 0,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e"],
+				"purchaseMeta": "Tema de uso interno"
+			}
+		]
 	}
 }
