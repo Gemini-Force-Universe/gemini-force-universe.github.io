@@ -374,286 +374,284 @@
 }
 
 /* Settings Section */
-.settings-section {
-  &--theme {
-    .settings-section-content {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      grid-auto-rows: min-content;
-      gap: 10px;
-      width: 100%;
+.settings-section--theme {
+  .settings-section-content {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: min-content;
+    gap: 10px;
+    width: 100%;
 
-      .theme-select-loading {
-        column-span: all;
-        font-size: 100%;
-        font-weight: 500;
-        text-align: center;
-        color: #999;
+    .theme-select-loading {
+      column-span: all;
+      font-size: 100%;
+      font-weight: 500;
+      text-align: center;
+      color: #999;
+    }
+
+    .theme-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border-width: 4px;
+      border-style: solid;
+      font-size: 120%;
+      font-weight: 500;
+      height: 50px;
+      cursor: pointer;
+
+      &:hover {
+        text-shadow: none !important;
       }
 
-      .theme-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        border-width: 4px;
-        border-style: solid;
-        font-size: 120%;
-        font-weight: 500;
-        height: 50px;
-        cursor: pointer;
+      &--unavailable {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      &[data-theme="default"] {
+        border-color: #71059b;
+        color: #9d00da;
+        background: #040611;
 
         &:hover {
-          text-shadow: none !important;
-        }
-
-        &--unavailable {
-          opacity: 0.5;
-          cursor: not-allowed;
-        }
-
-        &[data-theme="default"] {
-          border-color: #71059b;
-          color: #9d00da;
-          background: #040611;
-
-          &:hover {
-            color: #fff;
-            background: #71059b;
-          }
-        }
-
-        &[data-theme="neutral"] {
-          border-color: #737373;
-          color: #999999;
-          background: #000000;
-
-          &:hover {
-            color: #fff;
-            background: #737373;
-          }
-        }
-
-        &[data-theme="jade"] {
-          border-color: #0B9004;
-          color: #00d900;
-          background: #061104;
-
-          &:hover {
-            color: #fff;
-            background: #0B9004;
-          }
-        }
-
-        &[data-theme="sapphire"] {
-          border-color: #093D9F;
-          color: #0d51cf;
-          background: #070D27;
-
-          &:hover {
-            color: #fff;
-            background: #093D9F;
-          }
-        }
-
-        &[data-theme="pink"] {
-          border-color: #9F095C;
-          color: #c40b6f;
-          background: #290218;
-
-          &:hover {
-            color: #fff;
-            background: #9F095C;
-          }
-        }
-
-        &[data-theme="turquoise"] {
-          border-color: #099f98;
-          color: #0dc2be;
-          background: #011818;
-
-          &:hover {
-            color: #fff;
-            background: #099f98;
-          }
-        }
-
-        &[data-theme="ruby"] {
-          border-color: #9F0909;
-          color: #c40b0b;
-          background: #180101;
-
-          &:hover {
-            color: #fff;
-            background: #9F0909;
-          }
-        }
-
-        &[data-theme="citrine"] {
-          border-color: #b6961e;
-          color: #d3b02b;
-          background: #181601;
-
-          &:hover {
-            color: #fff;
-            background: #b6961e;
-          }
-        }
-
-        &[data-theme="orange"] {
-          border-color: #b64601;
-          color: #d24f01;
-          background: #240c02;
-
-          &:hover {
-            color: #fff;
-            background: #b64601;
-          }
-        }
-
-        &[data-theme="darkgreen"] {
-          border-color: #80a41f;
-          color: #9dbf2b;
-          background: #222603;
-
-          &:hover {
-            color: #fff;
-            background: #80a41f;
-          }
-        }
-
-        &[data-theme="lightblue"] {
-          border-color: #147aad;
-          color: #1f9ed1;
-          background: #031d26;
-
-          &:hover {
-            color: #fff;
-            background: #147aad;
-          }
-        }
-
-        &[data-theme="wine"] {
-          border-color: #952847;
-          color: #ce184c;
-          background: #120008;
-
-          &:hover {
-            color: #fff;
-            background: #952847;
-          }
-        }
-
-        &[data-theme="purple"] {
-          border-color: #7f3ed0;
-          color: #57279e;
-          background: #1a0323;
-
-          &:hover {
-            color: #fff;
-            background: #7f3ed0;
-          }
-        }
-
-        &[data-theme="sakura"] {
-          border-color: #c54285;
-          background: linear-gradient(180deg,
-              rgb(200, 63, 133) 0%,
-              rgb(34, 141, 170) 100%);
-          color: #e14f9b;
-          text-shadow: 0 0 5px rgb(34, 141, 170);
-
-          &:hover {
-            border-color: #c54285;
-            color: #fff;
-            background: #c54285;
-          }
-        }
-
-        &[data-theme="quicksilver"] {
-          border-color: #697c87;
-          background: linear-gradient(180deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgb(106, 124, 134) 100%);
-          color: #697c87;
-          text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-
-          &:hover {
-            border-color: #697c87;
-            color: #fff;
-            background: #697c87;
-          }
-        }
-
-        &[data-theme="nebula"] {
-          background: linear-gradient(180deg,
-              rgb(182, 115, 198) 0%,
-              rgba(11, 4, 17, 1) 100%);
-          color: #b773c7;
-          text-shadow: 0 0 5px rgba(11, 4, 17, 1);
-
-          &:hover {
-            border-color: #b773c7;
-            color: #fff;
-            background: #b773c7;
-          }
-        }
-
-        &[data-theme="maxstrike"] {
-          border-color: #737373;
-          color: #999999;
-          background: #000000;
-
-          &:hover {
-            color: #fff;
-            background: #737373;
-          }
-        }
-
-        &[data-theme="mark-y"] {
-          border-top-color: #dcc259;
-          border-left-color: #dcc259;
-          border-bottom-color: #7b6514;
-          border-right-color: #7b6514;
-          color: #000;
-          background: #cda926;
-
-          &:hover {
-            filter: brightness(0.8);
-          }
-        }
-
-        &[data-theme="mark-b"] {
-          border-top-color: #5a8fc9;
-          border-left-color: #5a8fc9;
-          border-bottom-color: #0d3561;
-          border-right-color: #0d3561;
-          color: #000;
-          background: #1b61b2;
-
-          &:hover {
-            filter: brightness(0.8);
-          }
-        }
-
-        &[data-theme="ghoul"] {
-          border-color: #000;
-          border-top-color: #fff;
-          color: #cc1900;
-          background: #000;
-
-          &:hover {
-            color: #000;
-            background: #cc1900;
-          }
-        }
-
-        &[data-theme^="placeholder"] {
-          border-color: transparent;
           color: #fff;
-          background: rgba(0, 0, 0, 0.15);
-          cursor: default !important;
+          background: #71059b;
         }
+      }
+
+      &[data-theme="neutral"] {
+        border-color: #737373;
+        color: #999999;
+        background: #000000;
+
+        &:hover {
+          color: #fff;
+          background: #737373;
+        }
+      }
+
+      &[data-theme="jade"] {
+        border-color: #0B9004;
+        color: #00d900;
+        background: #061104;
+
+        &:hover {
+          color: #fff;
+          background: #0B9004;
+        }
+      }
+
+      &[data-theme="sapphire"] {
+        border-color: #093D9F;
+        color: #0d51cf;
+        background: #070D27;
+
+        &:hover {
+          color: #fff;
+          background: #093D9F;
+        }
+      }
+
+      &[data-theme="pink"] {
+        border-color: #9F095C;
+        color: #c40b6f;
+        background: #290218;
+
+        &:hover {
+          color: #fff;
+          background: #9F095C;
+        }
+      }
+
+      &[data-theme="turquoise"] {
+        border-color: #099f98;
+        color: #0dc2be;
+        background: #011818;
+
+        &:hover {
+          color: #fff;
+          background: #099f98;
+        }
+      }
+
+      &[data-theme="ruby"] {
+        border-color: #9F0909;
+        color: #c40b0b;
+        background: #180101;
+
+        &:hover {
+          color: #fff;
+          background: #9F0909;
+        }
+      }
+
+      &[data-theme="citrine"] {
+        border-color: #b6961e;
+        color: #d3b02b;
+        background: #181601;
+
+        &:hover {
+          color: #fff;
+          background: #b6961e;
+        }
+      }
+
+      &[data-theme="orange"] {
+        border-color: #b64601;
+        color: #d24f01;
+        background: #240c02;
+
+        &:hover {
+          color: #fff;
+          background: #b64601;
+        }
+      }
+
+      &[data-theme="darkgreen"] {
+        border-color: #80a41f;
+        color: #9dbf2b;
+        background: #222603;
+
+        &:hover {
+          color: #fff;
+          background: #80a41f;
+        }
+      }
+
+      &[data-theme="lightblue"] {
+        border-color: #147aad;
+        color: #1f9ed1;
+        background: #031d26;
+
+        &:hover {
+          color: #fff;
+          background: #147aad;
+        }
+      }
+
+      &[data-theme="wine"] {
+        border-color: #952847;
+        color: #ce184c;
+        background: #120008;
+
+        &:hover {
+          color: #fff;
+          background: #952847;
+        }
+      }
+
+      &[data-theme="purple"] {
+        border-color: #7f3ed0;
+        color: #57279e;
+        background: #1a0323;
+
+        &:hover {
+          color: #fff;
+          background: #7f3ed0;
+        }
+      }
+
+      &[data-theme="sakura"] {
+        border-color: #c54285;
+        background: linear-gradient(180deg,
+            rgb(200, 63, 133) 0%,
+            rgb(34, 141, 170) 100%);
+        color: #e14f9b;
+        text-shadow: 0 0 5px rgb(34, 141, 170);
+
+        &:hover {
+          border-color: #c54285;
+          color: #fff;
+          background: #c54285;
+        }
+      }
+
+      &[data-theme="quicksilver"] {
+        border-color: #697c87;
+        background: linear-gradient(180deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgb(106, 124, 134) 100%);
+        color: #697c87;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+
+        &:hover {
+          border-color: #697c87;
+          color: #fff;
+          background: #697c87;
+        }
+      }
+
+      &[data-theme="nebula"] {
+        background: linear-gradient(180deg,
+            rgb(182, 115, 198) 0%,
+            rgba(11, 4, 17, 1) 100%);
+        color: #b773c7;
+        text-shadow: 0 0 5px rgba(11, 4, 17, 1);
+
+        &:hover {
+          border-color: #b773c7;
+          color: #fff;
+          background: #b773c7;
+        }
+      }
+
+      &[data-theme="maxstrike"] {
+        border-color: #737373;
+        color: #999999;
+        background: #000000;
+
+        &:hover {
+          color: #fff;
+          background: #737373;
+        }
+      }
+
+      &[data-theme="mark-y"] {
+        border-top-color: #dcc259;
+        border-left-color: #dcc259;
+        border-bottom-color: #7b6514;
+        border-right-color: #7b6514;
+        color: #000;
+        background: #cda926;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+
+      &[data-theme="mark-b"] {
+        border-top-color: #5a8fc9;
+        border-left-color: #5a8fc9;
+        border-bottom-color: #0d3561;
+        border-right-color: #0d3561;
+        color: #000;
+        background: #1b61b2;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+
+      &[data-theme="ghoul"] {
+        border-color: #000;
+        border-top-color: #fff;
+        color: #cc1900;
+        background: #000;
+
+        &:hover {
+          color: #000;
+          background: #cc1900;
+        }
+      }
+
+      &[data-theme^="placeholder"] {
+        border-color: transparent;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.15);
+        cursor: default !important;
       }
     }
   }
