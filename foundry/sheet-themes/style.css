@@ -1,6 +1,5 @@
 :root {
   --sheet-banner-display: none;
-  --sheet-video-display: none;
   --sheet-background: #040611;
   --sheet-button: #71059b;
   --sheet-button-dark: #4c0080;
@@ -11,6 +10,7 @@
 }
 
 .theme-default {
+  --sheet-banner-display: none;
   --sheet-background: #040611;
   --sheet-button: #71059b;
   --sheet-button-dark: #4c0080;
@@ -21,6 +21,7 @@
 }
 
 .theme-neutral {
+  --sheet-banner-display: none;
   --sheet-background: #000000;
   --sheet-button: #737373;
   --sheet-button-dark: #4c4c4c;
@@ -31,6 +32,7 @@
 }
 
 .theme-jade {
+  --sheet-banner-display: none;
   --sheet-background: #061104;
   --sheet-primary: #0b9004;
   --sheet-primary-dark: #007200;
@@ -41,6 +43,7 @@
 }
 
 .theme-sapphire {
+  --sheet-banner-display: none;
   --sheet-background: #070d27;
   --sheet-button: #093d9f;
   --sheet-button-dark: #062b6f;
@@ -51,6 +54,7 @@
 }
 
 .theme-pink {
+  --sheet-banner-display: none;
   --sheet-background: #290218;
   --sheet-button: #9f095c;
   --sheet-button-dark: #7c0747;
@@ -61,6 +65,7 @@
 }
 
 .theme-turquoise {
+  --sheet-banner-display: none;
   --sheet-background: #011818;
   --sheet-button: #099f98;
   --sheet-button-dark: #077d76;
@@ -71,6 +76,7 @@
 }
 
 .theme-ruby {
+  --sheet-banner-display: none;
   --sheet-background: #180101;
   --sheet-button: #9f0909;
   --sheet-button-dark: #7c0707;
@@ -81,6 +87,7 @@
 }
 
 .theme-citrine {
+  --sheet-banner-display: none;
   --sheet-background: #181601;
   --sheet-button: #a28517;
   --sheet-button-dark: #7c6d0f;
@@ -91,6 +98,7 @@
 }
 
 .theme-orange {
+  --sheet-banner-display: none;
   --sheet-background: #240c02;
   --sheet-button: #b64601;
   --sheet-button-dark: #8f3a01;
@@ -101,6 +109,7 @@
 }
 
 .theme-darkgreen {
+  --sheet-banner-display: none;
   --sheet-background: #222603;
   --sheet-button: #80a41f;
   --sheet-button-dark: #668a17;
@@ -111,6 +120,7 @@
 }
 
 .theme-lightblue {
+  --sheet-banner-display: none;
   --sheet-background: #091e2b;
   --sheet-button: #147aad;
   --sheet-button-dark: #0f5f7f;
@@ -121,6 +131,7 @@
 }
 
 .theme-wine {
+  --sheet-banner-display: none;
   --sheet-background: #120008;
   --sheet-button: #952847;
   --sheet-button-dark: #6f1f38;
@@ -131,6 +142,7 @@
 }
 
 .theme-purple {
+  --sheet-banner-display: none;
   --sheet-background: #1a0323;
   --sheet-button: #52279e;
   --sheet-button-dark: #3f1b6f;
@@ -264,394 +276,249 @@
   }
 }
 
-/* Mark Y */
-.theme-mark-y {
-  --sheet-banner-display: block;
-  --sheet-video-display: block;
-  --sheet-background: #000;
-  --sheet-button: #cda926;
-  --sheet-button-dark: #cda926;
-  --sheet-button-light: #cda926;
-  --sheet-primary: #cda926;
-  --sheet-primary-dark: #cda926;
-  --sheet-primary-light: #cda926;
-
-  .actor-sheet-banner,
-  video.actor-sheet-video {
-    display: none;
-  }
-
-  .rollableSkill,
-  .rollableMeleeDamage,
-  .rollableRangedDamage,
-  .roll-location,
-  .roll-hitlocations-button {
-    color: #000 !important;
-    border-top: 3px solid #dcc259;
-    border-bottom: 3px solid #7b6514;
-
-    &:hover {
-      filter: brightness(0.6);
-    }
-
-    &:active {
-      filter: brightness(1.2);
-    }
-  }
-
-  .origin-icon,
-  .skill-grid-items-item-roll-icon,
-  .roll-location-icon,
-  .hit-locations-roll-location-icon,
-  .weapon-list-items-item-content-bottom-roll-icon {
-    filter: invert(1);
-  }
-}
-
-/* Mark B */
-.theme-mark-b {
-  --sheet-banner-display: block;
-  --sheet-video-display: block;
-  --sheet-background: #000;
-  --sheet-button: #1b61b2;
-  --sheet-button-dark: #1b61b2;
-  --sheet-button-light: #1b61b2;
-  --sheet-primary: #1b61b2;
-  --sheet-primary-dark: #1b61b2;
-  --sheet-primary-light: #1b61b2;
-
-  .actor-sheet-banner,
-  video.actor-sheet-video {
-    display: none;
-  }
-
-  .rollableSkill,
-  .rollableMeleeDamage,
-  .rollableRangedDamage,
-  .roll-location,
-  .roll-hitlocations-button {
-    color: #000 !important;
-    border-top: 3px solid #5a8fc9;
-    border-bottom: 3px solid #0d3561;
-
-    &:hover {
-      filter: brightness(0.6);
-    }
-
-    &:active {
-      filter: brightness(1.2);
-    }
-  }
-
-  .origin-icon,
-  .skill-grid-items-item-roll-icon,
-  .roll-location-icon,
-  .hit-locations-roll-location-icon,
-  .weapon-list-items-item-content-bottom-roll-icon {
-    filter: invert(1);
-  }
-}
-
-/* Ghoul */
-.theme-ghoul {
-  --sheet-banner-display: block;
-  --sheet-video-display: block;
-  --sheet-background: #000;
-  --sheet-button: #000;
-  --sheet-button-dark: #d20a00;
-  --sheet-button-light: #721a09;
-  --sheet-primary: #000;
-  --sheet-primary-dark: #d20a00;
-  --sheet-primary-light: #d20a00;
-
-  .rollableSkill,
-  .rollableMeleeDamage,
-  .rollableRangedDamage,
-  .roll-location,
-  .roll-hitlocations-button {
-    border-top: 1px solid #fff;
-  }
-}
-
 /* Settings Section */
-.settings-section--theme {
-  .settings-section-content {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-auto-rows: min-content;
-    gap: 10px;
-    width: 100%;
+.settings-section {
+  &--theme {
+    .settings-section-content {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-auto-rows: min-content;
+      gap: 10px;
+      width: 100%;
 
-    .theme-select-loading {
-      column-span: all;
-      font-size: 100%;
-      font-weight: 500;
-      text-align: center;
-      color: #999;
-    }
-
-    .theme-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 10px;
-      border-width: 4px;
-      border-style: solid;
-      font-size: 120%;
-      font-weight: 500;
-      height: 50px;
-      cursor: pointer;
-
-      &:hover {
-        text-shadow: none !important;
+      .theme-select-loading {
+        column-span: all;
+        font-size: 100%;
+        font-weight: 500;
+        text-align: center;
+        color: #999;
       }
 
-      &--unavailable {
-        opacity: 0.5;
-        cursor: not-allowed;
-      }
-
-      &[data-theme="default"] {
-        border-color: #71059b;
-        color: #9d00da;
-        background: #040611;
+      .theme-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border-width: 4px;
+        border-style: solid;
+        font-size: 120%;
+        font-weight: 500;
+        height: 50px;
+        cursor: pointer;
 
         &:hover {
-          color: #fff;
-          background: #71059b;
+          text-shadow: none !important;
         }
-      }
 
-      &[data-theme="neutral"] {
-        border-color: #737373;
-        color: #999999;
-        background: #000000;
-
-        &:hover {
-          color: #fff;
-          background: #737373;
+        &--unavailable {
+          opacity: 0.5;
+          cursor: not-allowed;
         }
-      }
 
-      &[data-theme="jade"] {
-        border-color: #0B9004;
-        color: #00d900;
-        background: #061104;
+        &[data-theme="default"] {
+          border-color: #71059b;
+          color: #9d00da;
+          background: #040611;
 
-        &:hover {
-          color: #fff;
-          background: #0B9004;
+          &:hover {
+            color: #fff;
+            background: #71059b;
+          }
         }
-      }
 
-      &[data-theme="sapphire"] {
-        border-color: #093D9F;
-        color: #0d51cf;
-        background: #070D27;
+        &[data-theme="neutral"] {
+          border-color: #737373;
+          color: #999999;
+          background: #000000;
 
-        &:hover {
-          color: #fff;
-          background: #093D9F;
+          &:hover {
+            color: #fff;
+            background: #737373;
+          }
         }
-      }
 
-      &[data-theme="pink"] {
-        border-color: #9F095C;
-        color: #c40b6f;
-        background: #290218;
+        &[data-theme="jade"] {
+          border-color: #0B9004;
+          color: #00d900;
+          background: #061104;
 
-        &:hover {
-          color: #fff;
-          background: #9F095C;
+          &:hover {
+            color: #fff;
+            background: #0B9004;
+          }
         }
-      }
 
-      &[data-theme="turquoise"] {
-        border-color: #099f98;
-        color: #0dc2be;
-        background: #011818;
+        &[data-theme="sapphire"] {
+          border-color: #093D9F;
+          color: #0d51cf;
+          background: #070D27;
 
-        &:hover {
-          color: #fff;
-          background: #099f98;
+          &:hover {
+            color: #fff;
+            background: #093D9F;
+          }
         }
-      }
 
-      &[data-theme="ruby"] {
-        border-color: #9F0909;
-        color: #c40b0b;
-        background: #180101;
+        &[data-theme="pink"] {
+          border-color: #9F095C;
+          color: #c40b6f;
+          background: #290218;
 
-        &:hover {
-          color: #fff;
-          background: #9F0909;
+          &:hover {
+            color: #fff;
+            background: #9F095C;
+          }
         }
-      }
 
-      &[data-theme="citrine"] {
-        border-color: #b6961e;
-        color: #d3b02b;
-        background: #181601;
+        &[data-theme="turquoise"] {
+          border-color: #099f98;
+          color: #0dc2be;
+          background: #011818;
 
-        &:hover {
-          color: #fff;
-          background: #b6961e;
+          &:hover {
+            color: #fff;
+            background: #099f98;
+          }
         }
-      }
 
-      &[data-theme="orange"] {
-        border-color: #b64601;
-        color: #d24f01;
-        background: #240c02;
+        &[data-theme="ruby"] {
+          border-color: #9F0909;
+          color: #c40b0b;
+          background: #180101;
 
-        &:hover {
-          color: #fff;
-          background: #b64601;
+          &:hover {
+            color: #fff;
+            background: #9F0909;
+          }
         }
-      }
 
-      &[data-theme="darkgreen"] {
-        border-color: #80a41f;
-        color: #9dbf2b;
-        background: #222603;
+        &[data-theme="citrine"] {
+          border-color: #b6961e;
+          color: #d3b02b;
+          background: #181601;
 
-        &:hover {
-          color: #fff;
-          background: #80a41f;
+          &:hover {
+            color: #fff;
+            background: #b6961e;
+          }
         }
-      }
 
-      &[data-theme="lightblue"] {
-        border-color: #147aad;
-        color: #1f9ed1;
-        background: #031d26;
+        &[data-theme="orange"] {
+          border-color: #b64601;
+          color: #d24f01;
+          background: #240c02;
 
-        &:hover {
-          color: #fff;
-          background: #147aad;
+          &:hover {
+            color: #fff;
+            background: #b64601;
+          }
         }
-      }
 
-      &[data-theme="wine"] {
-        border-color: #952847;
-        color: #ce184c;
-        background: #120008;
+        &[data-theme="darkgreen"] {
+          border-color: #80a41f;
+          color: #9dbf2b;
+          background: #222603;
 
-        &:hover {
-          color: #fff;
-          background: #952847;
+          &:hover {
+            color: #fff;
+            background: #80a41f;
+          }
         }
-      }
 
-      &[data-theme="purple"] {
-        border-color: #7f3ed0;
-        color: #57279e;
-        background: #1a0323;
+        &[data-theme="lightblue"] {
+          border-color: #147aad;
+          color: #1f9ed1;
+          background: #031d26;
 
-        &:hover {
-          color: #fff;
-          background: #7f3ed0;
+          &:hover {
+            color: #fff;
+            background: #147aad;
+          }
         }
-      }
 
-      &[data-theme="sakura"] {
-        border-color: #c54285;
-        background: linear-gradient(180deg,
-            rgb(200, 63, 133) 0%,
-            rgb(34, 141, 170) 100%);
-        color: #e14f9b;
-        text-shadow: 0 0 5px rgb(34, 141, 170);
+        &[data-theme="wine"] {
+          border-color: #952847;
+          color: #ce184c;
+          background: #120008;
 
-        &:hover {
+          &:hover {
+            color: #fff;
+            background: #952847;
+          }
+        }
+
+        &[data-theme="purple"] {
+          border-color: #7f3ed0;
+          color: #57279e;
+          background: #1a0323;
+
+          &:hover {
+            color: #fff;
+            background: #7f3ed0;
+          }
+        }
+
+        &[data-theme="sakura"] {
           border-color: #c54285;
-          color: #fff;
-          background: #c54285;
+          background: linear-gradient(180deg,
+              rgb(200, 63, 133) 0%,
+              rgb(34, 141, 170) 100%);
+          color: #e14f9b;
+          text-shadow: 0 0 5px rgb(34, 141, 170);
+
+          &:hover {
+            border-color: #c54285;
+            color: #fff;
+            background: #c54285;
+          }
         }
-      }
 
-      &[data-theme="quicksilver"] {
-        border-color: #697c87;
-        background: linear-gradient(180deg,
-            rgba(0, 0, 0, 1) 0%,
-            rgb(106, 124, 134) 100%);
-        color: #697c87;
-        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-
-        &:hover {
+        &[data-theme="quicksilver"] {
           border-color: #697c87;
+          background: linear-gradient(180deg,
+              rgba(0, 0, 0, 1) 0%,
+              rgb(106, 124, 134) 100%);
+          color: #697c87;
+          text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+
+          &:hover {
+            border-color: #697c87;
+            color: #fff;
+            background: #697c87;
+          }
+        }
+
+        &[data-theme="nebula"] {
+          background: linear-gradient(180deg,
+              rgb(182, 115, 198) 0%,
+              rgba(11, 4, 17, 1) 100%);
+          color: #b773c7;
+          text-shadow: 0 0 5px rgba(11, 4, 17, 1);
+
+          &:hover {
+            border-color: #b773c7;
+            color: #fff;
+            background: #b773c7;
+          }
+        }
+
+        &[data-theme="maxstrike"] {
+          border-color: #737373;
+          color: #999999;
+          background: #000000;
+
+          &:hover {
+            color: #fff;
+            background: #737373;
+          }
+        }
+
+        &[data-theme^="placeholder"] {
+          border-color: transparent;
           color: #fff;
-          background: #697c87;
+          background: rgba(0, 0, 0, 0.15);
+          cursor: default !important;
         }
-      }
-
-      &[data-theme="nebula"] {
-        background: linear-gradient(180deg,
-            rgb(182, 115, 198) 0%,
-            rgba(11, 4, 17, 1) 100%);
-        color: #b773c7;
-        text-shadow: 0 0 5px rgba(11, 4, 17, 1);
-
-        &:hover {
-          border-color: #b773c7;
-          color: #fff;
-          background: #b773c7;
-        }
-      }
-
-      &[data-theme="maxstrike"] {
-        border-color: #737373;
-        color: #999999;
-        background: #000000;
-
-        &:hover {
-          color: #fff;
-          background: #737373;
-        }
-      }
-
-      &[data-theme="mark-y"] {
-        border-top-color: #dcc259;
-        border-left-color: #dcc259;
-        border-bottom-color: #7b6514;
-        border-right-color: #7b6514;
-        color: #000;
-        background: #cda926;
-
-        &:hover {
-          filter: brightness(0.8);
-        }
-      }
-
-      &[data-theme="mark-b"] {
-        border-top-color: #5a8fc9;
-        border-left-color: #5a8fc9;
-        border-bottom-color: #0d3561;
-        border-right-color: #0d3561;
-        color: #000;
-        background: #1b61b2;
-
-        &:hover {
-          filter: brightness(0.8);
-        }
-      }
-
-      &[data-theme="ghoul"] {
-        border-color: #000;
-        border-top-color: #fff;
-        color: #cc1900;
-        background: #000;
-
-        &:hover {
-          color: #000;
-          background: #cc1900;
-        }
-      }
-
-      &[data-theme^="placeholder"] {
-        border-color: transparent;
-        color: #fff;
-        background: rgba(0, 0, 0, 0.15);
-        cursor: default !important;
       }
     }
   }
@@ -673,8 +540,7 @@
 .theme-sakura .theme-button[data-theme="sakura"],
 .theme-quicksilver .theme-button[data-theme="quicksilver"],
 .theme-nebula .theme-button[data-theme="nebula"],
-.theme-maxstrike .theme-button[data-theme="maxstrike"],
-.theme-ghoul .theme-button[data-theme="ghoul"] {
+.theme-maxstrike .theme-button[data-theme="maxstrike"] {
   border-color: var(--sheet-primary-dark) !important;
   color: #ffffff !important;
   background: var(--sheet-primary) !important;
