@@ -79,6 +79,38 @@
 		"ghoul": {
 			"name": "Ghoul",
 			"type": 2
+		},
+		"sobrenatural": {
+			"name": "Sobrenatural",
+			"type": 1
+		},
+		"frutiger": {
+			"name": "Frutiger",
+			"type": 1
+		},
+		"claymation": {
+			"name": "Claymation",
+			"type": 1
+		},
+		"davies": {
+			"name": "Davies",
+			"type": 2
+		},
+		"xen": {
+			"name": "Xen",
+			"type": 2
+		},
+		"wireframe": {
+			"name": "Wireframe",
+			"type": 1
+		},
+		"cinnamon": {
+			"name": "Cinnamon",
+			"type": 1
+		},
+		"storm": {
+			"name": "Sparks",
+			"type": 1
 		}
 	},
 	"availability": {
@@ -113,6 +145,54 @@
 				"purchase": 2,
 				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec", "aab7fecf-9e3f-489d-ab6e-a4dc11a2c1a9"],
 				"purchaseMeta": "Ghoul"
+			},
+			{
+				"code": "sobrenatural",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Origem Sobrenatural"
+			},
+			{
+				"code": "frutiger",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Frutiger"
+			},
+			{
+				"code": "davies",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Davies"
+			},
+			{
+				"code": "xen",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Xen"
+			},
+			{
+				"code": "claymation",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Claymation"
+			},
+			{
+				"code": "cinnamon",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Cinnamon"
+			},
+			{
+				"code": "wireframe",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Wireframe"
+			},
+			{
+				"code": "storm",
+				"purchase": 2,
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"purchaseMeta": "Tema Sparks"
 			}
 		]
 	}
