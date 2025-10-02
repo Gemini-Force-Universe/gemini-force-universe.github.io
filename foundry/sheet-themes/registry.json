@@ -149,7 +149,21 @@
 			{
 				"code": "sobrenatural",
 				"purchase": 2,
-				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"owners": [
+					"b8534dd0-803b-4b57-bbef-2a1b29d1182e",
+					"2d349f7e-3337-4998-8d63-c28eb0e59678",
+					"d78df21c-5a35-477b-a531-2e6adc044dec",
+					"ce944814-c9fb-41e4-906e-ff0bfb9b84b1",
+					"419ca2ad-8999-4c9a-a1c1-17a75c2d8c14",
+					"aab7fecf-9e3f-489d-ab6e-a4dc11a2c1a9",
+					"e5b5696a-f91f-45e8-b407-a254da6e29cf",
+					"466bb9e6-c4cf-42ca-8c3b-0e98f43a01aa",
+					"6af4fb1f-b4ea-432e-9206-4c6fb08eec90",
+					"6e9dd12d-093d-4152-8b06-8321f8f74286",
+					"e9fb01ec-201a-4c83-9d65-b52fedb4316c",
+					"7099189e-4677-4343-96c1-e87aea844412",
+					"53f3268d-a9f6-4ae9-a208-0ee5d4c59287"
+				],
 				"purchaseMeta": "Origem Sobrenatural"
 			},
 			{
@@ -161,7 +175,7 @@
 			{
 				"code": "davies",
 				"purchase": 2,
-				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec", "6af4fb1f-b4ea-432e-9206-4c6fb08eec90", "6e9dd12d-093d-4152-8b06-8321f8f74286"],
 				"purchaseMeta": "Tema Davies"
 			},
 			{
@@ -179,7 +193,7 @@
 			{
 				"code": "cinnamon",
 				"purchase": 2,
-				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec"],
+				"owners": ["b8534dd0-803b-4b57-bbef-2a1b29d1182e", "2d349f7e-3337-4998-8d63-c28eb0e59678", "d78df21c-5a35-477b-a531-2e6adc044dec", "6e9dd12d-093d-4152-8b06-8321f8f74286"],
 				"purchaseMeta": "Tema Cinnamon"
 			},
 			{
