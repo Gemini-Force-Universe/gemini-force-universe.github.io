@@ -1,0 +1,1 @@
+import{_ as t}from"./auth-BGbITF4K.js";import{c as r,o as s,g as o}from"./index-CsNZmXtr.js";const c={},n={class:"flex items-center justify-center w-full h-full"};function l(a,e){return s(),r("div",n,e[0]||(e[0]=[o("h1",null,"Em breve...",-1)]))}const _=t(c,[["render",l]]);export{_ as default};
