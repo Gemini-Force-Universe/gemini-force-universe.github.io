@@ -115,10 +115,6 @@
 		"ace-7": {
 			"name": "ACE 7",
 			"type": 1
-		},
-		"celtic": {
-			"name": "Celtic",
-			"type": 0
 		}
 	},
 	"availability": {
@@ -127,7 +123,7 @@
 			"all": ["neutral", "jade", "sapphire", "pink", "turquoise", "ruby", "citrine", "orange", "darkgreen", "lightblue", "wine", "purple"],
 			"jade": [],
 			"sapphire": [],
-			"amethyst": ["sakura", "quicksilver", "nebula", "celtic"]
+			"amethyst": ["sakura", "quicksilver", "nebula"]
 		},
 		"premium": [
 			{
