@@ -1,6 +1,0 @@
-import{S as u,m as f,W as p}from"./index-CmdYOkij.js";import{c as m}from"./utils-CytzSlOG.js";import{c as h}from"./createLucideIcon-BAbSQh6a.js";import{d as b,a as g,b as k,o as y,w as t,f as r,u as e,D as _,B}from"./index-MSpgavDE.js";/**
- * @license lucide-vue-next v0.429.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const C=h("CheckIcon",[["path",{d:"M20 6 9 17l-5-5",key:"1gmf2c"}]]),j=b({__name:"Checkbox",props:{defaultChecked:{type:Boolean},checked:{type:[Boolean,String]},disabled:{type:Boolean},required:{type:Boolean},name:{},value:{},id:{},asChild:{type:Boolean},as:{},class:{}},emits:["update:checked"],setup(c,{emit:n}){const s=c,d=n,l=g(()=>{const{class:a,...o}=s;return o}),i=u(l,d);return(a,o)=>(y(),k(e(p),B(e(i),{class:e(m)("peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground",s.class)}),{default:t(()=>[r(e(f),{class:"flex h-full w-full items-center justify-center text-current"},{default:t(()=>[_(a.$slots,"default",{},()=>[r(e(C),{class:"h-4 w-4"})])]),_:3})]),_:3},16,["class"]))}});export{C,j as _};
